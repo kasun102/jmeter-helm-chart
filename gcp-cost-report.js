@@ -3,8 +3,8 @@ const XLSX = require("xlsx");
 const fs = require("fs");
 const nodemailer = require("nodemailer");
 
-const EMAIL_FROM = process.env.REPORT_EMAIL_FROM || "finops-reports@sysco.com";
-const EMAIL_TO = process.env.REPORT_EMAIL_TO || "finops-team@sysco.com";
+const EMAIL_FROM = process.env.REPORT_EMAIL_FROM || "ComTech-FinOps-Service-Team@Sysco.com";
+const EMAIL_TO = process.env.REPORT_EMAIL_TO || "ComTech-FinOps-Service-Team@Sysco.com";
 const SMTP_HOST = process.env.SMTP_HOST || "smtp.sysco.com";
 const SMTP_PORT = parseInt(process.env.SMTP_PORT || "587", 10);
 const SMTP_USER = process.env.SMTP_USER || "";
