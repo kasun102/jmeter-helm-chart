@@ -1,0 +1,14 @@
+{
+  "name": "gcp-cost-report",
+  "version": "1.0.0",
+  "description": "GCP cost forecast report fetcher",
+  "main": "gcp-cost-report.js",
+  "scripts": {
+    "start": "node gcp-cost-report.js"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.13",
+    "puppeteer": "^22.0.0",
+    "xlsx": "^0.18.5"
+  }
+}
